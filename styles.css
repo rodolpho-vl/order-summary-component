@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 450px;
+  height: 650px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 20px 15px hsl(245, 75%, 95%);
+}
+
+.hero-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  color: hsl(224, 23%, 55%);
+  width: 75%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.price {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-plan {
+  display: flex;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.plan-type {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.change a {
+  color: hsl(245, 75%, 52%);
+}
+
+.payment-button {
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 20px 15px hsl(245, 75%, 95%);
+}
+
+.cancel-order {
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Queries */
+
+/* iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .card {
+    width: 350px;
+  }
+
+  .price {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .payment-button {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cancel-order {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* iPhone 12 and iPhone 12 Pro  */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .card {
+    width: 365px;
+  }
+
+  .price {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .payment-button {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cancel-order {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* iPhone 12 Pro Max */
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .card {
+    width: 400px;
+  }
+
+  .price {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .payment-button {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cancel-order {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+}
