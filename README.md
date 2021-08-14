@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/rodolpho-vl/order-summary-component](https://your-solution-url.com)
-- Live Site URL: [https://inspiring-gates-e8621a.netlify.app/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/rodolpho-vl/order-summary-component](https://github.com/rodolpho-vl/order-summary-component)
+- Live Site URL: [https://inspiring-gates-e8621a.netlify.app/](https://inspiring-gates-e8621a.netlify.app/)
 
 ## My process
 
